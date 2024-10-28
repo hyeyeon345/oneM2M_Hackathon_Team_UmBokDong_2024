@@ -32,7 +32,6 @@ import java.util.logging.Logger;
 
 import static kr.re.keti.mobiussampleapp_v25.R.layout.activity_main;
 
-
 // TODO: WorkManager를 이용한 MQTT connection 열기 및 데이터 Retrieve(비동기적 데이터 가져오기 위함) -> Trigger Theft Notification
 public class MainActivity extends AppCompatActivity implements Button.OnClickListener, CompoundButton.OnCheckedChangeListener {
     public Button btnRetrieve;
